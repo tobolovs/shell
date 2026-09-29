@@ -50,6 +50,7 @@ rm *other*.dat
 cd ..
 cd raw
 rm *ipaddr*.txt
+rm *ipaddr*.log
 cd -
 touch inventory.txt
 find processed -type f > inventory.txt
