@@ -32,7 +32,7 @@ mkdir data
 mv rawdata data
 cd data
 mv rawdata raw
-ls raw
+ls ./raw
 mkdir processed 
 cd processed 
 mkdir server_logs user_logs event_logs
