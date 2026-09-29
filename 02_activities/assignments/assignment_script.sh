@@ -18,6 +18,7 @@ cd newproject
 
 mkdir analysis output
 touch README.md
+echo "# Project Name: DSI Consulting Inc." > README.md
 touch analysis/main.py
 
 # download client data
@@ -54,7 +55,6 @@ rm *ipaddr*.log
 cd -
 touch inventory.txt
 find processed -type f > inventory.txt
-
 
 ###########################################
 
